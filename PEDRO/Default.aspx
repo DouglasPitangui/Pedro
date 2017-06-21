@@ -27,15 +27,5 @@
     </section>
       
 
-    <!-- jQuery -->
-    <script src="scripts/jquery-1.9.1.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="scripts/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <!-- <script src="vendor/scrollreveal/scrollreveal.min.js"></script> -->
-    <!-- <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
-
-    <!-- Theme JavaScript -->
-    <script src="scripts/creative.min.js"></script>
+   
 </asp:Content>
