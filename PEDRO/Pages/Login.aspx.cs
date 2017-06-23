@@ -11,7 +11,9 @@ namespace PEDRO
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Request.QueryString["erro"] != null && Request.QueryString["erro"].ToString().Equals("x")) { 
+                divErro.Visible = true;
+            }
         }
     }
 }
