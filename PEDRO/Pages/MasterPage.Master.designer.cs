@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PEDRO {
+namespace PEDRO.Pages {
     
     
     public partial class MasterPage {

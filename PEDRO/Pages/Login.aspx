@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="PEDRO.Login" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/MasterPage.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="PEDRO.Pages.Login" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -17,7 +17,7 @@
                         <i class="glyphicon glyphicon-user"></i>Login
                     </h1>
                     <p>
-                        Não possui uma conta? <a href="Pages/Cadastro/CadastrarUsuario.aspx" data-switch-view="signup">Registre-se</a>.
+                        Não possui uma conta? <a href="CadastrarUsuario.aspx" data-switch-view="signup">Registre-se</a>.
                     </p>
                 </div>
                 <hr style="max-width: 100%  !important" size="15">

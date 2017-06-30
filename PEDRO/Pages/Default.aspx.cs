@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace PEDRO
+namespace PEDRO.Pages
 {
     public partial class Default : System.Web.UI.Page
     {

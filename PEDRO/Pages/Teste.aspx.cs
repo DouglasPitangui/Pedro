@@ -5,18 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace PEDRO
+namespace PEDRO.Pages
 {
-    public partial class MasterPage : System.Web.UI.MasterPage
+    public partial class Teste : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void login_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Login.aspx?erro=x", true);
         }
     }
 }

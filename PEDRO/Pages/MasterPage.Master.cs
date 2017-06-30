@@ -7,13 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace PEDRO.Pages
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class MasterPage : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Request.QueryString["erro"] != null && Request.QueryString["erro"].ToString().Equals("x")) { 
-                divErro.Visible = true;
-            }
+
+        }
+
+        protected void login_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx?erro=x", true);
         }
     }
 }
